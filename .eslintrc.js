@@ -1,9 +1,11 @@
-module.exports = {
+export default {
     "env": {
         "browser": true,
         "es2021": true
     },
-    "extends": "plugin:react/recommended",
+    "extends": ["plugin:react/recommended",
+    "eslint:recommended",
+    'plugin:@next/next/recommended',],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
@@ -17,5 +19,7 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        "react/react-in-jsx-scope": "off",
+   "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     }
 }

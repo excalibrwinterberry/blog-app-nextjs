@@ -1,3 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable no-undef */
+/* eslint-disable no-redeclare */
 /* eslint-disable react/react-in-jsx-scope */
 import { GetStaticProps } from "next"
 import Header from "../../components/Header"
