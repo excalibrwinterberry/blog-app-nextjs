@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { GetStaticProps } from "next"
 import Header from "../../components/Header"
 import {sanityClient, urlFor} from "../../sanity"
